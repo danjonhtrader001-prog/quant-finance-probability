@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 """
 Newton-Raphson Method (Newton's Method)
-----------------------------------------
+
 The Newton-Raphson method is an efficient algorithm for finding roots of a real-valued function f(x).
 Given an initial guess x0, it iteratively improves the solution using:
 
@@ -13,9 +13,9 @@ where f'(x) is the derivative of f(x).
 
 This is widely used across science and engineering to solve nonlinear equations.
 
------------------------------
+
 Application in Quantitative Finance:
------------------------------
+
 One classic use is for finding the "implied volatility" of an option. Given an option market price,
 we invert the Black-Scholes formula to find the volatility parameter that makes the Black-Scholes
 theoretical price match the observed market price.
@@ -110,7 +110,7 @@ plt.show()
 
 print("""
 Summary:
---------
+
 The Newton-Raphson method quickly finds the implied volatility that matches the observed market price under Black-Scholes.
 Implied vol is a key concept in options trading, volatility surface construction, and risk management in finance.
 """)
